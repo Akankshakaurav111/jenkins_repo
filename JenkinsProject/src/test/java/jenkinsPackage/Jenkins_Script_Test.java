@@ -12,7 +12,7 @@ public class Jenkins_Script_Test {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demowebshop.tricentis.com/");
-		Reporter.log("Jenkins excuted");
+		Reporter.log("Jenkins excuted",true);
 	}
 
 }
